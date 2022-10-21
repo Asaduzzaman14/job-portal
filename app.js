@@ -22,7 +22,7 @@ app.use("/manager/jobs", managerJobRoute);
 app.use("/", adminRoute);
 
 app.get("/", (req, res) => {
-    res.send("Wellcome to ACC Assignment-3. Route is working");
+    res.send("Wellcome to job portal. Route is working");
 });
 
 module.exports = app;
